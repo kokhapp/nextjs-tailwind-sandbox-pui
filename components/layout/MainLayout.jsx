@@ -1,18 +1,18 @@
 "use client";
 
-import React, { useContext } from 'react';
-import Link from 'next/link';
-import MainHeader from './MainHeader';
+import React, { useContext } from "react";
+import Link from "next/link";
+import MainHeader from "./MainHeader";
 
-import {AiOutlineHome} from 'react-icons/ai';
-import { GrProjects } from 'react-icons/gr';
-import { FaAngleRight, FaCheck, FaCheckDouble } from 'react-icons/fa';
-import { SiHelpscout, SiSinglestore } from 'react-icons/si';
-import { FiPhoneCall } from 'react-icons/fi'
-import { MenuContext } from '@/context/MenuContext';
+import { AiOutlineHome } from "react-icons/ai";
+import { GrProjects } from "react-icons/gr";
+import { FaAngleRight, FaCheck, FaCheckDouble } from "react-icons/fa";
+import { SiHelpscout, SiSinglestore } from "react-icons/si";
+import { FiPhoneCall } from "react-icons/fi";
+import { MenuContext } from "@/context/MenuContext";
 
 const MainLayout = ({ children }) => {
-  const {open} = useContext(MenuContext);
+  const { open } = useContext(MenuContext);
 
   return (
     <div className="bg-gray-100 w-screen min-h-screen">
@@ -27,7 +27,7 @@ const MainLayout = ({ children }) => {
           <ul>
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2">
               <AiOutlineHome className="mr-2" />
-              <Link href="/">Home</Link>
+              <Link href="/">หน้าหลัก</Link>
             </li>
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2">
@@ -37,13 +37,13 @@ const MainLayout = ({ children }) => {
             </li>
 
             <li className="flex flex-col justify-start items-start hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2">
-              <div className='w-full flex flex-row justify-start items-center'>
+              <div className="w-full flex flex-row justify-start items-center">
                 <FaCheck className="mr-2" />
                 <h3 className="flex-1">Singular</h3>
                 <FaAngleRight />
               </div>
-              <ul className='ml-8 mt-4'>
-                <li className='flex justify-center items-center gap-3'>
+              <ul className="ml-8 mt-4">
+                <li className="flex justify-center items-center gap-3">
                   <SiSinglestore />
                   <Link href="/singular/selectbox">Select Box</Link>
                 </li>
@@ -71,6 +71,6 @@ const MainLayout = ({ children }) => {
       </div>
     </div>
   );
-}
+};
 
 export default MainLayout;
