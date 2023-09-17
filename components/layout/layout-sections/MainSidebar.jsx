@@ -65,20 +65,27 @@ const MainSidebar = () => {
             <FaAngleRight />
           </div>
           <ul className="ml-8 mt-4">
-            <li className="flex justify-center items-center gap-3">
+            <li className="flex justify-start items-center gap-3 my-1">
               <SiSinglestore />
-              <Link href="/complex/horizontal-scrollbar" onClick={closeSeideBarHandler}>
+              <Link
+                href="/complex/horizontal-scrollbar"
+                onClick={closeSeideBarHandler}
+              >
                 Ho-Scrollbar
+              </Link>
+            </li>
+
+            <li className="flex justify-start items-center gap-3 my-1">
+              <SiSinglestore />
+              <Link
+                href="/complex/tabs"
+                onClick={closeSeideBarHandler}
+              >
+                Tabs
               </Link>
             </li>
           </ul>
         </li>
-
-
-
-
-
-
 
         <li className="flex justify-start items-center hover:bg-green-200 hover:text-green-800 rounded-xl p-2">
           <SiHelpscout className="mr-2" />
