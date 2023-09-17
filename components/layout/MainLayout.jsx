@@ -26,9 +26,10 @@ const MainLayout = ({ children }) => {
       >
         <ul>
           <li className="flex justify-end items-center lg:hidden">
-            <AiOutlineClose 
-            onClick={closeSeideBarHandler}
-            className="text-red-500 hover:text-red-800 cursor-pointer" />
+            <AiOutlineClose
+              onClick={closeSeideBarHandler}
+              className="text-red-500 hover:text-red-800 cursor-pointer"
+            />
           </li>
 
           <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800 rounded-xl p-2">
@@ -81,7 +82,7 @@ const MainLayout = ({ children }) => {
           </li>
         </ul>
       </aside>
-      <div className={`${open ? "blur-xl" : "blur-0"}`}>
+      <div className={`${open ? "max-lg:blur-xl" : "blur-0"}`}>
         <MainHeader />
         <main className="lg:ml-[280px]">{children}</main>
       </div>
