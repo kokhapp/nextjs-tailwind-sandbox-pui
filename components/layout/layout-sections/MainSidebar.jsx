@@ -89,6 +89,13 @@ const MainSidebar = () => {
               </Link>
             </li>
 
+            <li className="flex justify-start items-center gap-3 my-1">
+              <SiSinglestore />
+              <Link href="/complex/simple-multi-step-form" onClick={closeSeideBarHandler}>
+                Simple M-S-Form
+              </Link>
+            </li>
+
           </ul>
         </li>
 
