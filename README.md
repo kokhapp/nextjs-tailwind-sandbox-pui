@@ -32,3 +32,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Episodes:
+
+- 01: basic admin panel structure + sidebar menu
+- 02: Custom SelectBox + User area + Language area
+- 03: Custom Sidebar like TailwindCSS Document sample
+- 04: Horizontal Scroller + Instagram Stories + YouTube Categories
+- 05: Tabs Component
+- 06: Slider component with real api and products images
+- 07: Middleware 🚀
+- 08: Instagram Navigation Buttons
+- 09: Multi-step Form With React js, Next js and Tailwind CSS
+- 10: Modal
+    - [x]C01SimpleHelloWorldModal
+    - [ ]C02ShowImageModal
+    - [ ]C03VideoPlayerModal
+    - [ ]C04ShowChartModal
+    - [ ]C05MoneyTrackingModal
+    - [ ]C06ConfirmationModal
+    - [ ]C07InputFormModal
+    - [ ]C08TimerCountdownModal

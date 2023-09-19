@@ -49,10 +49,17 @@ const MainSidebar = () => {
             <FaAngleRight />
           </div>
           <ul className="ml-8 mt-4">
-            <li className="flex justify-center items-center gap-3">
+            <li className="flex justify-start items-center gap-3">
               <SiSinglestore />
               <Link href="/singular/selectbox" onClick={closeSeideBarHandler}>
                 Select Box
+              </Link>
+            </li>
+
+            <li className="flex justify-start items-center gap-3 my-1">
+              <SiSinglestore />
+              <Link href="/singular/modal" onClick={closeSeideBarHandler}>
+                Modal
               </Link>
             </li>
           </ul>
@@ -91,11 +98,13 @@ const MainSidebar = () => {
 
             <li className="flex justify-start items-center gap-3 my-1">
               <SiSinglestore />
-              <Link href="/complex/simple-multi-step-form" onClick={closeSeideBarHandler}>
+              <Link
+                href="/complex/simple-multi-step-form"
+                onClick={closeSeideBarHandler}
+              >
                 Simple M-S-Form
               </Link>
             </li>
-
           </ul>
         </li>
 
