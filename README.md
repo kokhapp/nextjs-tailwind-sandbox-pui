@@ -50,6 +50,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     - [x]C03VideoPlayerModal
     - [x]C04ShowChartModal
     - [x]C05MoneyTrackingModal
-    - [ ]C06ConfirmationModal
-    - [ ]C07InputFormModal
-    - [ ]C08TimerCountdownModal
+    - [x]C06ConfirmationModal
+    - [x]C07InputFormModal
+    - [x]C08TimerCountdownModal
