@@ -1,8 +1,9 @@
 "use client";
 import Modal from "@/components/modal/Modal";
 import { useState } from "react";
+import Image from "next/image";
 
-const C01SimpleHelloWorldModal = () => {
+const C02ShowImageModal = () => {
   const [showModal, setShowModal] = useState(false);
 
   const openModalHandler = () => {
@@ -19,24 +20,24 @@ const C01SimpleHelloWorldModal = () => {
         className="px-4 py-2 bg-blue-900 text-white rounded-lg"
         onClick={openModalHandler}
       >
-        Show Simple HelloWorld Modal
+        Show Image Modal
       </button>
       <Modal
         isOpen={showModal}
         onDismiss={closeModalHandler}
-        title="Simple Hello World Modal"
+        title="Show Image Modal"
       >
         <div className="my-4 w-[600px] max-w-full">
-          <h1>Hello World</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
-            maiores possimus dignissimos corrupti tenetur expedita pariatur
-            molestiae alias. Facilis, deserunt!
-          </p>
+          <Image
+            src="/assets/images/sky.jpg"
+            width={600}
+            height={300}
+            className="rounded-lg"
+          />
         </div>
       </Modal>
     </div>
   );
 };
 
-export default C01SimpleHelloWorldModal;
+export default C02ShowImageModal;

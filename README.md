@@ -46,10 +46,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - 09: Multi-step Form With React js, Next js and Tailwind CSS
 - 10: Modal
     - [x]C01SimpleHelloWorldModal
-    - [ ]C02ShowImageModal
-    - [ ]C03VideoPlayerModal
-    - [ ]C04ShowChartModal
-    - [ ]C05MoneyTrackingModal
+    - [x]C02ShowImageModal
+    - [x]C03VideoPlayerModal
+    - [x]C04ShowChartModal
+    - [x]C05MoneyTrackingModal
     - [ ]C06ConfirmationModal
     - [ ]C07InputFormModal
     - [ ]C08TimerCountdownModal
